@@ -6,18 +6,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz</title>
-    <!-- <link rel="stylesheet" href="https://flamingoui.netlify.app/components/main.css"> -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <main class="flex-col center p-4">
-        <h1 class="color-title">Quiz</h1>
-        <div class="flex wrap p-4">
-            <a href="./pages/questions.html" class="card radius-md bg-secondary m-2">
+<body class="flex center text-primary-dark bg-primary-dark">
+    <main class="flex-col center">
+        <nav class="nav-bar text-white">
+            <div class="flex justify-between">
+                <div class="flex center">
+                    <div class="brand-name">Quiz</div>
+                </div>
+                <ul class="nav-list">
+                    <li class="nav-list-item active"><a href="#">Home</a></li>
+                    <li class="nav-list-item"><a href="#">All categories</a></li>
+                    <li class="nav-list-item "><a href="#">Leaderboard</a></li>
+                    <li class="nav-list-item"><a href="#"><i class="fas fa-user-circle"></i></i></a></li>
+                </ul>
+                <button class="menu-icon center" title="Navigation menu icon" tabindex="0">
+                    <i class="fas fa-bars fa-lg center" aria-hidden="true"></i>
+                </button>
+            </div>
+        </nav>
+        <div class="flex wrap py-4">
+            <a href="./pages/questions.html" class="card radius-md bg-secondary-dark m-2">
                 <div class="card-overlay">
                     <img src="./images/5392.jpg" class="card-img-top radius-md" alt="" srcset="">
-                    <h5 class="overlay-text color-title">
+                    <h5 class="overlay-text text-white">
                         From Start to Finish and Back Again
                     </h5>
                 </div>
@@ -29,34 +45,32 @@
                 </div>
             </a>
 
-            <a href="./pages/questions.html" class="card radius-md bg-secondary m-2">
+            <a href="./pages/questions.html" class="card radius-md bg-secondary-dark m-2">
                 <div class="card-overlay">
                     <img src="./images/5449.jpg" class="card-img-top radius-md" alt="" srcset="">
-                    <h5 class="overlay-text color-title">
+                    <h5 class="overlay-text text-white">
                         Do You Know The Alphabet?
                     </h5>
                 </div>
                 <div class="card-body">
                     <p>
-                        How well do you know the alphabet? In this quiz, I will give you letters in no significant
+                        In this quiz, I will give you letters in no significant
                         order, and you must guess the letter that is missing from the set.
                     </p>
                 </div>
             </a>
-            <a href="./pages/questions.html" class="card radius-md bg-secondary m-2">
-                <!-- <div class="card radius-md bg-secondary m-2"> -->
-                    <div class="card-overlay">
-                        <img src="./images/1163.jpg" class="card-img-top radius-md" alt="" srcset="">
-                        <h5 class="overlay-text color-title">
-                            A Mixture of Disney Movies
-                        </h5>
-                    </div>
-                    <div class="card-body">
-                        <p>
-                            I'll describe the Disney movie, and you tell me which one it is. Information comes from IMDb.
-                        </p>
-                    </div>
-                <!-- </div> -->
+            <a href="./pages/questions.html" class="card radius-md bg-secondary-dark m-2">
+                <div class="card-overlay">
+                    <img src="./images/1163.jpg" class="card-img-top radius-md" alt="" srcset="">
+                    <h5 class="overlay-text text-white">
+                        A Mixture of Disney Movies
+                    </h5>
+                </div>
+                <div class="card-body">
+                    <p>
+                        I'll describe the Disney movie, and you tell me which one it is. Information comes from IMDb.
+                    </p>
+                </div>
             </a>
         </div>
     </main>
