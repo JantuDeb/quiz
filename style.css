@@ -1,0 +1,50 @@
+@import url("https://flamingoui.netlify.app/components/main.css");
+
+:root{
+    --fu-primary:#111827;
+    --fu-text-color:#6B7280;
+    --fu-accent:#1C64F2;
+    --fu-title-color:#fff;
+    --fu-secondary:#1F2937;
+}
+
+body{
+    background-color: var(--fu-primary);
+    color: var(--fu-text-color);
+}
+
+.color-title{
+    color: var(--fu-title-color);
+}
+
+.bg-secondary{
+    background-color: var(--fu-secondary);
+}
+
+.question{
+    width: 100%;
+    max-width: 30rem;
+}
+
+/* QUESTION */
+.option{
+    margin: 1rem 0;
+    background-color: var(--fu-secondary);
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.incorrect{
+    background-color: var(--fu-red);
+    color: var(--fu-title-color);
+}
+.correct{
+    background-color: var(--fu-success);
+    color: var(--fu-title-color);
+}
+
+.timer{
+    list-style: none;
+    margin: 0;
+    color: var(--fu-title-color);
+}
