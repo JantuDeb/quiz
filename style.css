@@ -52,3 +52,27 @@
     display: none;
   }
 }
+
+
+
+@media (prefers-color-scheme: light) {
+  .bg-secondary-dark {
+    background-color: var(--fu-gray-300);
+  }
+  .bg-primary-dark {
+    background-color: var(--fu-white);
+  }
+
+  .text-primary-dark {
+    color: var(--fu-body-color);
+  }
+
+  .text-white {
+    color: rgb(37, 36, 36);
+  }
+  .nav-list-item.active {
+    border-bottom: 2px solid var(--fu-accent-dark);
+    background-color: var(--fu-secondary);
+    color: var(--fu-body-bg);
+  }
+}
