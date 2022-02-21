@@ -18,6 +18,9 @@
   background-color: var(--fu-secondary-dark);
 }
 
+.nav-list li:hover{
+  border-bottom: 2px solid var(--fu-accent-dark);
+}
 .quiz-board {
   max-width: 100%;
   width: 30rem;
@@ -39,6 +42,22 @@
   position: relative;
 }
 
+.signup-main{
+  height: 100vh;
+}
+.signup-container{
+  border: 1px solid var(--fu-gray-800);
+  width: 100%;
+  max-width: 30rem;
+}
+
+.login-container{
+  width: 100%;
+  max-width: 25rem;
+}
+.btn-login{
+  width: 100%;
+}
 
 @media (min-width: 600px) {
   .nav-list {
@@ -75,4 +94,8 @@
     background-color: var(--fu-secondary);
     color: var(--fu-body-bg);
   }
+}
+
+.input-group input:focus{
+  color: var(--fu-white);
 }
