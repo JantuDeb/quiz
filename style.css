@@ -18,9 +18,10 @@
   background-color: var(--fu-secondary-dark);
 }
 
-.nav-list li:hover{
-  border-bottom: 2px solid var(--fu-accent-dark);
+.nav-list-item:hover{
+    border-bottom: 2px solid var(--fu-accent-dark);
 }
+
 .quiz-board {
   max-width: 100%;
   width: 30rem;
@@ -94,8 +95,4 @@
     background-color: var(--fu-secondary);
     color: var(--fu-body-bg);
   }
-}
-
-.input-group input:focus{
-  color: var(--fu-white);
 }
