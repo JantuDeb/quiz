@@ -18,8 +18,8 @@
   background-color: var(--fu-secondary-dark);
 }
 
-.nav-list-item:hover{
-    border-bottom: 2px solid var(--fu-accent-dark);
+.nav-list-item:hover {
+  border-bottom: 2px solid var(--fu-accent-dark);
 }
 
 .quiz-board {
@@ -43,21 +43,25 @@
   position: relative;
 }
 
-.signup-main{
+.signup-main {
   height: 100vh;
 }
-.signup-container{
+.signup-container {
   border: 1px solid var(--fu-gray-800);
   width: 100%;
   max-width: 30rem;
 }
 
-.login-container{
+.login-container {
   width: 100%;
   max-width: 25rem;
 }
-.btn-login{
+.btn-login {
   width: 100%;
+}
+
+.input:focus {
+  color: var(--fu-white);
 }
 
 @media (min-width: 600px) {
@@ -72,8 +76,6 @@
     display: none;
   }
 }
-
-
 
 @media (prefers-color-scheme: light) {
   .bg-secondary-dark {
